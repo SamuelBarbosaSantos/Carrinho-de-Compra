@@ -28,7 +28,7 @@ namespace CarrinhodeCompras.Controllers
             _livroRepository.Cadastrar(livro);
 
             ViewBag.msg = "Cadastro realizado";
-            return View();
+            return RedirectToAction("Home","Index");
               
 
             
@@ -49,7 +49,7 @@ namespace CarrinhodeCompras.Controllers
             _livroRepository.Cadastrar(livro);
 
             ViewBag.msg = "Cadastro realizado";
-            return View();
+            return RedirectToAction("Index", "Home");
 
 
 

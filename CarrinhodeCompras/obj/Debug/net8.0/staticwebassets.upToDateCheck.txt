@@ -2,6 +2,8 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Imagens\harry potter 2.jpg
 wwwroot\Imagens\harry potter.webp
+wwwroot\Imagens\naruto.jfif
+wwwroot\Imagens\one piece.jfif
 wwwroot\Imagens\percy.jpg
 wwwroot\Imagens\rainha.jpg
 wwwroot\js\site.js

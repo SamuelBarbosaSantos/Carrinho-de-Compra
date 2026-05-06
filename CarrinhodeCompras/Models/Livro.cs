@@ -7,7 +7,7 @@ namespace CarrinhodeCompras.Models
     {
         public int codLivro { get; set; }
         public object CodLivro { get; internal set; }
-        [DisplayName("XYZ")]
+        [DisplayName("Nome do livro")]
         public string nomeLivro { get; set; }
         public string imagemLivro { get; set; }
 
