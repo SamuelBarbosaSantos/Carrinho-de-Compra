@@ -20,20 +20,20 @@
                         @if (Model != null && Model.Count > 0)
                         {
                             <li class="nav-item dropdown">
-                                <a data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button" data-toogle="dropdown"
-                                       aria-haspopup="true" aria-expanded="false">
+                                <a data-bs-toggle="dropdown" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toogle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="fas fa-list-ul"></i> Categorias
                                 </a>
-                                <div class="dropdown-menu">
-                                    aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
                                     @foreach (var categoria in Model)
                                     {
-                                        <a class="drodown-item" href="#">@categoria.Nome</a>
+                                        <a class="dropdown-item" href="#">@categoria.Nome</a>
                                     }
 
                                 </div>
                             </li>
                         }
+
+
 
 
                         <li class="nav-item">
